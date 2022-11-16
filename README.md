@@ -2,17 +2,17 @@
 ***
 
 ## Task
-TODO - What is the problem? And where is the challenge?
+Creating a backend app with javascript Express.
 
 ## Description
-TODO - How have you solved the problem?
+storing the information hard coded inside the file without creating a database.
 
 ## Installation
-TODO - How to install your project? npm install? make? make re?
+npm installed, node_module also installed encompassing Express.
 
 ## Usage
-TODO - How does it work?
-```
+workes locally with a local host server listening port 8080.
+
 ./my_project argument1 argument2
 ```
 
