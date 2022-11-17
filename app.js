@@ -5,6 +5,8 @@ const songs = [
     {title: 'Castle Rock'},
     {title: 'Adeste Fideles'},
     {title: 'Available'},
+    {title: 'All the Way Home'},
+    {title: 'All This and Heaven Too'},
     {title: 'An Affair to Remember (Our Love Affair)'},
     {title: "Before the Music Ends"},
     {title: "Ain't She Sweet"},
@@ -14,16 +16,20 @@ const songs = [
     {title: 'Half as Lovely (Twice as True)'},
     {title: 'I Believe'},
     {title: 'I See It Now'},
-    {title: 'I Think of You'}
-]
+    {title: 'I Think of You'},
+    {title: 'The Saddest Thing of All'},
+    {title: 'The Right Girl for Me'},
+    {title: 'Rain in My Heart'},
+    {title: 'Sand and Sea'},
+];
 
 const birthDate = {
     "date of birth" : 'December 12, 1915'
-}
+};
 
 const birthCity = {
     "city of birth" : 'Hoboken, New Jersey'
-}
+};
 
 const wives = 'Nancy Barbato, Ava Gardner, Mia Farrow, Barbara Marx';
 
@@ -32,7 +38,7 @@ const picture = 'https://en.wikipedia.org/wiki/Frank_Sinatra#/media/File:Frank_S
 const login = {
     login: 'admin',
     password: 'admin'
-}
+};
 
 app.get('/', (req, res) => {
     const randomSong = Math.floor(Math.random() * 19) + 1;
